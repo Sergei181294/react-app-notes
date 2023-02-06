@@ -1,0 +1,93 @@
+* {
+       margin: 0;
+       padding: 0;
+}
+.container {
+       max-width: 1440px;
+       margin: 0 auto;
+       width: 100%;
+       display: flex;
+       background: linear-gradient(135deg, #dcba3c 0, #e2b033 10%, #e8a52b 20%,
+                   #ed9824 30%, #f08a20 40%, #f37b1f 50%, #f56a21 60%, #f75827 70%,
+                   #f9442f 80%, #fa2c38 90%, #fa0042 100%);
+       border-radius: 11px;
+       justify-content: space-between;
+       
+}
+.left_half {
+       max-width: 340px;
+       width:100%;
+       padding: 10px 30px;
+}
+.right_half {
+       display: flex;
+       flex-direction: column;
+       max-width: 900px;
+       width: 100%;
+       background-color: rgba(255, 255, 255, 0.23);
+       padding: 20px 20px;
+       border-radius: 11px;
+       text-align: center;
+}
+.textArea {
+       background: inherit;
+       height: 500px;
+       border:none
+       
+}
+.input {
+       background: inherit;
+       border: 1px solid rosybrown;
+}
+.list {
+       max-width: 300px;
+       list-style: none;
+       cursor:pointer;
+}
+.list:hover {
+       background-color: rgb(214, 140, 3);
+}
+.itemTitle {
+       font-size: 18px;
+       font-weight: 700;
+       overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.itemDescription {
+       font-size: 16px;
+       font-weight: 200;
+       color: rgb(65, 65, 65);
+       overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+.editedBtn {
+       width: 300px;
+       cursor: pointer;
+       background-color: green;
+       color:white;
+       border:none;
+}
+.date {
+       font-size: 16px;
+       font-weight: 600;
+       color:gray;
+}
+.addNoteBtn {
+       width: 300px;
+       cursor: pointer;
+       background-color: rgb(209, 1, 174);
+       color:white;
+       border:none;
+}
+.deleteBtn {
+       width: 300px;
+       cursor: pointer;
+       background-color: rgb(238, 0, 0);
+       color:white;
+       border:none;
+}
+
+
